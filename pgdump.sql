@@ -1,0 +1,1 @@
+/Library/PostgreSQL/9.6/bin/pg_dump --file "/Users/pennthee/Downloads/192_168_5_30_zabbixdb.sql" --host "192.168.5.30" --port "5432" --username "postgres" --no-password --verbose --format=c --blobs "zabbix"
