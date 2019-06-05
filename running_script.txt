@@ -1,0 +1,239 @@
+-bash-4.2$ 
+-bash-4.2$ ./zabbix_db_cleaner.sh 
+Password: 
+Password: 
+Password: 
+SET
+SET
+SET
+SET
+SET
+SET
+SET
+SET
+CREATE TABLE
+ALTER TABLE
+Password: 
+INSERT 0 336073
+Password: 
+ALTER TABLE
+Password: 
+ALTER TABLE
+Password: 
+SET
+SET
+SET
+SET
+SET
+SET
+SET
+DROP INDEX
+Password: 
+SET
+SET
+SET
+SET
+SET
+SET
+SET
+CREATE INDEX
+Password: 
+Password: 
+Password: 
+SET
+SET
+SET
+SET
+SET
+SET
+SET
+SET
+CREATE TABLE
+ALTER TABLE
+Password: 
+INSERT 0 0
+Password: 
+ALTER TABLE
+Password: 
+ALTER TABLE
+Password: 
+SET
+SET
+SET
+SET
+SET
+SET
+SET
+DROP INDEX
+Password: 
+SET
+SET
+SET
+SET
+SET
+SET
+SET
+CREATE INDEX
+Password: 
+Password: 
+Password: 
+SET
+SET
+SET
+SET
+SET
+SET
+SET
+SET
+CREATE TABLE
+ALTER TABLE
+Password: 
+INSERT 0 336073
+Password: 
+ALTER TABLE
+Password: 
+ALTER TABLE
+Password: 
+SET
+SET
+SET
+SET
+SET
+Password: 
+SET
+SET
+SET
+SET
+SET
+Password: 
+Password: 
+Password: 
+SET
+SET
+SET
+SET
+SET
+SET
+SET
+SET
+CREATE TABLE
+ALTER TABLE
+Password: 
+INSERT 0 488
+Password: 
+ALTER TABLE
+Password: 
+ALTER TABLE
+Password: 
+SET
+SET
+SET
+SET
+SET
+SET
+SET
+DROP INDEX
+Password: 
+SET
+SET
+SET
+SET
+SET
+SET
+SET
+CREATE INDEX
+Password: 
+Password: 
+Password: 
+SET
+SET
+SET
+SET
+SET
+SET
+SET
+SET
+CREATE TABLE
+ALTER TABLE
+Password: 
+INSERT 0 14612
+Password: 
+ALTER TABLE
+Password: 
+ALTER TABLE
+Password: 
+SET
+SET
+SET
+SET
+SET
+SET
+SET
+DROP INDEX
+Password: 
+SET
+SET
+SET
+SET
+SET
+SET
+SET
+CREATE INDEX
+Password: 
+Password: 
+Password: 
+SET
+SET
+SET
+SET
+SET
+SET
+SET
+SET
+CREATE TABLE
+ALTER TABLE
+Password: 
+INSERT 0 238537
+Password: 
+ALTER TABLE
+Password: 
+ALTER TABLE
+Password: 
+SET
+SET
+SET
+SET
+SET
+SET
+SET
+DROP INDEX
+Password: 
+SET
+SET
+SET
+SET
+SET
+SET
+SET
+CREATE INDEX
+-bash-4.2$ 
+-bash-4.2$ 
+-bash-4.2$ ls -l
+total 60
+drwx------.  2 postgres postgres    6 Dec  8  2017 backups
+drwx------. 15 postgres postgres 4096 May 30 18:54 data
+-rw-r--r--.  1 postgres postgres  475 Jun  4 20:45 history_log.post-data.sql
+-rw-r--r--.  1 postgres postgres  856 Jun  4 20:45 history_log.pre-data.sql
+-rw-r--r--.  1 postgres postgres  245 Jun  4 20:45 history_old.post-data.sql
+-rw-r--r--.  1 postgres postgres  662 Jun  4 20:45 history_old.pre-data.sql
+-rw-r--r--.  1 postgres postgres  463 Jun  4 20:44 history.post-data.sql
+-rw-r--r--.  1 postgres postgres  650 Jun  4 20:44 history.pre-data.sql
+-rw-r--r--.  1 postgres postgres  475 Jun  4 20:45 history_str.post-data.sql
+-rw-r--r--.  1 postgres postgres  686 Jun  4 20:45 history_str.pre-data.sql
+-rw-r--r--.  1 postgres postgres  478 Jun  4 20:45 history_text.post-data.sql
+-rw-r--r--.  1 postgres postgres  658 Jun  4 20:45 history_text.pre-data.sql
+-rw-r--r--.  1 postgres postgres  478 Jun  4 20:45 history_uint.post-data.sql
+-rw-r--r--.  1 postgres postgres  669 Jun  4 20:45 history_uint.pre-data.sql
+-rw-------.  1 postgres postgres 1266 Aug  4  2018 initdb.log
+-rwxr-xr-x.  1 root     root     1088 Jun  4 20:43 zabbix_db_cleaner.sh
+-bash-4.2$ exit
