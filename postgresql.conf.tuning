@@ -1,0 +1,40 @@
+# allow how many simulatanuous connections
+# has to do with how much memory is available and 
+# how many clients you want to come in and allow to do simulaneous query
+# those simulatenous queries each take up a chunk of RAM
+# if configured wrong, may ake up more RAM 
+max_connections = 200
+
+# postgresql will not need more than 8GB of cache
+# because postgresql can't use a cache bigger than 8GB
+# better off putting in connection pooling if cache (shared_buffers) requires more than 8GB
+# 25% (or 1/4) of total RAM (this example has 32GB RAM)
+shared_buffers = 8GB
+
+# this is a guideline for query planner
+# 50% or 75% of total RAM (this example has 32GB RAM)
+effective_cache_size = 24GB
+
+# sorting and complex sort how much memory to give for complex sorting
+# For scientific 
+# 200 connections * 41MB
+# work_mem = 41943kB (41MB per query)
+
+# amount of memory given to background processes running in postgresql
+# for process like pgdump, pgrestore, vacuuming, indexing, index creation
+maintenance_work_mem = 2GB
+
+# when writing data to disk, posgresql creates these little segments of data that's going to get written
+# and then for every 3 segments, they're 16MB a piece
+# for every three segments that go in, a checkpoint is written to disk
+# That disk I/O actually takes some time, it takes some resources and can slow things down
+# by default they are called checkpoint segments and set to three
+# it means for every three segments, it's goint to write to disk whenever writes are happening
+# if we increase, writes to disk won't happen as often and it's good. 
+checkpoint_segments = 32
+
+# checkpoint completion target is complicated. Leave the default
+# checkpoint_completion_target = 0.7
+
+# write ahead log
+wal_buffers = 16MB
